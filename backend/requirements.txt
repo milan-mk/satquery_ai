@@ -1,0 +1,23 @@
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+python-multipart==0.0.9
+pydantic==2.9.2
+pillow==10.4.0
+
+# Testing
+pytest==8.3.3
+httpx==0.27.2
+
+# --- Not yet installed in this scaffold (documented in README) ---
+# rasterio        # real GeoTIFF/CRS metadata parsing
+# torch           # specialist model inference (requires GPU for practical use)
+# transformers
+# peft            # LoRA fine-tuning
+# opencv-python-headless
+# numpy
+# geopandas
+# shapely
+# sqlalchemy      # once PostgreSQL is introduced
+# psycopg2-binary
+# boto3           # or minio client, for S3-compatible object storage
+# redis           # if background jobs are introduced
